@@ -5,15 +5,12 @@ body {
 }
 
 #box {
-	border: 1px solid #040404;
-	background: #999;
-	box-sizing: border-box;
-	padding: 20px;
-	/*width: 30%;*/
-	/*float: left;*/
-	position: relative;
-	top: 150px;
-	/*margin-left: 20px;*/
+  padding: 10px;
+  border: 2px solid black;
+  position: relative;
+  background: #999;
+  float: left;
+  box-sizing: border-box;
 }
 
 #pos {
@@ -23,7 +20,7 @@ body {
 	top: 0;
 	right: 0;
 	background: #d59898;
-	color: #040404
+	color: #040404;
 }
 
 #box:nth-child(1) #pos {
@@ -38,9 +35,10 @@ body {
 	background: #e5d198;
 }
 
-p {
+#cont {
 	color: #040404;
 	font-weight: bold;
+  margin-top: 20px;
 }
 
 	
@@ -135,6 +133,13 @@ p {
   	margin-bottom: 15px;
   }
 }
+
+/* Simple Responsive Framework */
+
+.row {
+  width: 100%
+}
+
 
 /********** Small devices only **********/
 
